@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    background-color: #081B31;
+    color: white;
+    height: 90px;
+    line-height: 5rem;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    /* object-fit: contain; */
+    border-radius: 50%;
+}
+
+.choice:hover{
+    opacity: 0.5px;
+    cursor: pointer;
+    background-color: rgb(20, 9, 9);
+}
+#scissorsImg{
+    width: 150px;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#user-score,
+#comp-score{
+    font-size: 3rem;
+    
+}
+.msgContainer{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081B31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 25px;
+}
