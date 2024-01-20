@@ -1,10 +1,11 @@
 let userScore = 0;
 let compScore = 0;
-
+let userPara = document.querySelector("#user-score");
+let compPara = document.querySelector("#comp-score");
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg")
 const computerChoice = () => {
-    const options = ["rock", "paper", "scissors"];
+    const options = ["Rock", "Paper", "Scissors"];
     //rock paper scissors
     const rand = Math.floor(Math.random() * 3);
     return options[rand];
@@ -16,15 +17,19 @@ const drawGame = () => {
     msg.style.backgroundColor = "#081B31";
 }
 
-const showWinner = (userWin)=>{
+const showWinner = (userWin, userChoice, compChoice)=>{
     if(userWin){
+        userScore++;
+        userPara.innerText = userScore;
         console.log("You win");
-        msg.innerText = "You win!";
+        msg.innerText = `You win!  ${userChoice} beats ${compChoice}`;
         msg.style.backgroundColor = "Green";
     }
     else{
         console.log("You lost");
-        msg.innerText = "You Lose.";
+        compScore++;
+        compPara.innerText = compScore;
+        msg.innerText = `You Lose.  ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor = "Red";
     }
 }
@@ -39,14 +44,14 @@ const playaGame = (userChoice) => {
         drawGame();
     } else {
         let userWin = true;
-        if (userChoice === "rock") {
-            userWin = compChoice === "paper" ? false : true;
-        } else if (userChoice === "paper") {
-            userWin = compChoice === "scissors" ? false : true;
+        if (userChoice === "Rock") {
+            userWin = compChoice === "Paper" ? false : true;
+        } else if (userChoice === "Paper") {
+            userWin = compChoice === "Scissors" ? false : true;
         } else{
-            userWin = compChoice ==="rock" ? false : true;
+            userWin = compChoice ==="Rock" ? false : true;
         }
-        showWinner(userWin);
+        showWinner(userWin, userChoice, compChoice);
     }
 };
 
