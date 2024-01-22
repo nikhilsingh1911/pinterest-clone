@@ -1,0 +1,54 @@
+*{
+    margin: 0%;;
+    padding: 0%;
+    background-color: rgb(46, 41, 41);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    background-color: white;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+#numWords{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 219, 219);
+    outline: none;
+    font: 100 1.3rem sans-serif;
+    transition: 0.5s ease-in;
+}
+#numWords:hover{
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px;
+    color: whitesmoke; 
+    border: none;
+    font: sans-serif;
+    transition: background-color 0.5s;
+    transition: 0.31s ease-in-out;
+}
+button:hover{
+    background-color: rgb(81, 70, 70);
+    border-radius: 10px ; 
+}
+.paras{
+    background-color: rgb(188, 186, 186);
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
