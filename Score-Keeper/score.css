@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    min-width: 20vh;
+    min-height: 50vh;
+}
+h1{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+#scoreDisplay{
+    font: 100 1.4rem 'Segoe UI';
+    font-weight: bold;
+}
+.numberPlayer{
+    display: flex;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+}
+#player1{
+    background-color: rgb(157, 244, 234);
+    transition: ease 0.5s;
+}
+#player1:hover{
+    background-color: rgb(128, 206, 197);
+    transform: translateY(-2px);
+}
+#player2{
+    background-color: rgb(120, 186, 122);
+    transition: ease 0.5s;
+}
+#player2:hover{
+    background-color: rgb(91, 146, 93);
+    transform: translateY(-2px);
+}
+
+#reset{
+    background-color: rgb(215, 19, 16);
+    color: white;
+}
+#reset:hover{
+    background-color: rgb(194, 16, 13);
+    transform: translateY(-2px);
+}

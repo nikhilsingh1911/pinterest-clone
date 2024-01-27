@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+select{
+    margin-top: 20px;
+    margin: 20px;
+    width: 25vh;
+    height: 25px;
+}
+button{
+    height: 25px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    background-color: #095252;
+    border: 0.1px solid black
+}
