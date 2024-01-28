@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Segoe UI';
     text-align: center;
+    /* background-image: linear-gradient( rgb(184, 166, 166), rgb(148, 148, 89)); */
 }
 .container{
     display: flex;
