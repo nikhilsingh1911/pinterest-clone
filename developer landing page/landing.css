@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.container{
+    background-image: url(developer-landing-page-1.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    color: white;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.bigtext{
+    font-size: 80px;
+}
+
+.worktext{
+    height: 100px;
+    width:100%;
+    background-color: #161619;
+    text-align: center;
+    color: white;
+}
+.work-h2{
+    position: relative;
+    font-size: 50px;
+    font-weight: 300;
+}
+.work-span{
+    font-size: 75px;
+}
+
+.grid{
+    margin-left: 390px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.worktype{
+    border: 1px solid white;
+   margin-right: 20px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgb(187, 177, 177), -2px -2px 5px rgb(187, 177, 177), -2px 2px 5px rgb(187, 177, 177), 2px -2px 5px rgb(187, 177, 177);
+}
+.work-text{
+    padding: 10px;
+}
+.worktype img{
+    width: 100%;
+    border-radius:  5px;
+}
+
+.worktype h3{
+    font-size: 30px;
+}
+
+.footer-section{
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-section h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+.contact{
+    padding: 50px;
+    padding-top: 20px;
+    background-color: #851e1e;
+}
+
+.about{
+    padding: 50px;
+    padding-top: 20px;
+    background-color: rgb(61, 122, 175);
+}
+.last-section{
+    background-color: #161619;
+    color: white;
+    position: relative;
+    top: 75px;
+    text-align: center;
+    font-weight: 100;
+}
