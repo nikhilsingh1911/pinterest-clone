@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     position: relative;
+
 }
 
 .container{
@@ -52,7 +53,22 @@
     border: 1px solid white;
    margin-right: 20px;
    border-radius: 5px;
-   box-shadow: 2px 2px 5px rgb(187, 177, 177), -2px -2px 5px rgb(187, 177, 177), -2px 2px 5px rgb(187, 177, 177), 2px -2px 5px rgb(187, 177, 177);
+   box-shadow: 2px 2px 5px rgb(206, 201, 201), -2px -2px 5px rgb(206, 201, 201), -2px 2px 5px rgb(206, 201, 201), 2px -2px 5px rgb(206, 201, 201);
+   transition: ease-in-out 0.5s;
+}
+
+.worktype:hover{
+    transform: translateY(-2.5px);
+}
+#worktype1:hover{
+    box-shadow: 2px 2px 5px #00FFFD, -2px -2px 5px #00FFFD, -2px 2px 5px #00FFFD, 2px -2px 5px #00FFFD;
+
+}#worktype2:hover{
+    box-shadow: 2px 2px 5px #EC6CFF, -2px -2px 5px #FF87FF, -2px 2px 5px #FF87FF, 2px -2px 5px #FF87FF;
+
+}#worktype3:hover{
+    box-shadow: 2px 2px 5px #39FF14, -2px -2px 5px #39FF14, -2px 2px 5px #39FF14, 2px -2px 5px #39FF14;
+
 }
 .work-text{
     padding: 10px;
