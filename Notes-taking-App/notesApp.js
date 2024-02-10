@@ -43,9 +43,7 @@ const addNote = (text = "") => {
     inputBox.append(inputText);
     saveData();
 }
-// mainArea.addEventListener(("focusout"),()=>{
-//     saveData();
-// })
+
 
 mainArea.addEventListener("click", (e) => {
     if (e.target.className === "deletebtn") {
