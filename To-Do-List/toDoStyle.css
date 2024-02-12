@@ -15,9 +15,10 @@
 .container{
     min-height: 400px;
     max-width: 540px;
-    border: 1px solid black;
+    border: 5px solid white;
     padding: 20px 50px;
     margin: 100px auto 20px;
+    border-radius: 35px;
 }
 
 .container h2{
@@ -79,9 +80,6 @@
     justify-content: space-between;
 }
 
-.inputdiv:checked{
-    text-decoration: line-through;
-}
 
 .deleBtn{
     padding: 5px 10px;
@@ -89,6 +87,7 @@
     border-radius: 50%;
     background-color:white;
     color: black;
+    text-decoration: none;
 }
 
 .deleBtn:hover{
@@ -107,11 +106,5 @@
 .donebtn:hover{
     background-color: rgba(252, 255, 252, 0.715);
     border: 1px solid black;
-    
-}
-
-
-.textline{
-    text-decoration: line-through;
 }
 
